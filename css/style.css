@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.contain{
+	display: flex;
+	
+}
+.left{
+	width: 330px;
+    height: auto;
+    
+}
+input[type=text]{
+    margin-left: 40px;
+}
+
+.right{
+    display: none;
+    width: 600px;
+    height:auto;
+}
+.right2{
+    display: none;
+    width: 600px;
+    height:auto;
+}
+
+#submit{
+    display: none;
+}
+
+.text{
+    width: 260px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+.text2{
+    width: 260px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 10px;
+
+}
+.radio{
+    margin-top: 10px;
+    display: none;
+}
+#type2{
+    margin-left: 40px;
+    width: 272px;
+    height: 34px;
+}
+
+#type1{
+    margin-left: 40px;
+    width: 272px;
+    height: 34px;
+}
+.radio2{
+    margin: 10px 0 20px 0;
+}
+#effect{
+    margin-left: 80px;
+}
+#support{
+    margin-left:15px;
+}
+.submit{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.submit span{
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+em{
+    font-style: normal;
+    color: red;
+    font-size: 18px;
+    width: auto;
+    height:38px;
+    margin:0 0 0 10px;
+}
+#card{
+    margin-left:100px;
+    display:inline-block;
+    position: relative;
+}
+#need{
+    margin-left: 15px;
+    display:inline-block;
+}
+#submit2{
+    display: none;
+}
+.submit2{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.submit2 span{
+    width: 100px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.get-contain{
+    flex: 1;
+    height:1000px;
+    padding-left: 20px;
+    border-left:1px solid gray;
+}
+.get{
+    flex: 1;
+    height:1000px;
+    padding-left: 20px;
+}
+.concat{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 30px;
+    background: #48a7dd;
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+    display: none;
+    appearance:button;
+    cursor: pointer;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+    color: #ffffff;
+}
+
+.concat2{
+    width: 100px;
+    height: 30px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 30px;
+    background: #48a7dd;
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+    display: none;
+    cursor: pointer;
+    appearance:button;
+    -moz-appearance:button; /* Firefox */
+    -webkit-appearance:button; /* Safari 和 Chrome */
+    display: none;
+    color: #ffffff;
+}
+#number{
+    margin-left: 40px;
+    width: 272px;
+    height: 34px;
+}
+#button{
+    width: 120px;
+    height: 30px;
+    background: #48a7dd;
+    display: inline-block;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    border-radius:5px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: none;
+}
+input{
+    outline: none;
+}
+
+/* 禁止页面选择 */
+body{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    }
+
+ .details{
+     width:1000px;
+     height:500px;
+     overflow-x: hidden;
+     background: #ffffff;
+     position:fixed;
+     top: 10%; 
+     left: 0; 
+     right: 0;
+     bottom:10%;
+     margin: 0 auto;
+     z-index: 10;
+     display: none;
+ }   
+ .details-header{
+     width: 1000px;
+     height: 60px;
+     color: #666666;
+     margin-top: 20px;
+
+ }
+.details-header input[type=text]{
+    width: 180px;
+    height: 30px;
+
+}
+.card{
+    margin-right: 20px;
+    float: left;
+}
+
+.find{
+    width: 100px;
+    height: 34px;
+    border-radius:5px;
+    text-align: center;
+    line-height: 34px;
+    -webkit-appearence:none;
+    background: #0085D0;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    appearance:button;
+    -moz-appearance:button; /* Firefox
+    -webkit-appearance:button; /* Safari 和 Chrome */
+    cursor: pointer;
+    float: left;
+    margin-left: 20px;
+}
+ #details input[type=text]{
+    margin-left: 20px;
+    }
+.lines{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #e8eff2;
+    padding-left: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.details-content{
+    width: 100%;
+    border-top: 1px dotted gray;
+    margin-bottom: 40px;
+    max-height:288px;
+    overflow-y: auto;
+}
+.table {
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    border-collapse:collapse;
+    overflow-x:hidden;
+    overflow-y: scroll;
+    height: auto;
+    max-height: 500px;
+}
+
+.table thead td {
+    height:40px ;
+    background:#e8eff2;
+    width: 9%;
+    border-right: 1px dotted #808080;
+}
+
+
+.table tbody td {
+    border: 1px dotted #808080;
+    overflow: hidden;  
+    white-space: nowrap;  
+    text-overflow:ellipsis;
+    height:40px ;
+    width: 9%;
+}
+.background{
+    color: #ffffff;
+    font-size: 12px;
+    cursor: pointer;
+    width: 50%;
+    height: 30px;
+    margin:0 auto;
+    background: #0085D0;
+    line-height: 30px;
+    border-radius:5px; 
+}
+
+/* 黑幕 */
+.black{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    background: black;
+    filter:alpha(opacity=30);
+    -moz-opacity:0.3;
+    opacity: 0.3;
+    z-index: 1;
+    display: none;
+}
+/* 分页代码 */
+.footer{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    margin-top: 20px;
+    width: 300px;
+    height:40px;
+}
+
+/*
+     * 页数按钮样式
+     */
+
+.page_div a {
+    height: 30px;
+    border: 1px solid #dce0e0!important;
+    text-align: center;
+    cursor: pointer;
+    line-height: 30px;
+    color: #666666;
+    font-size: 12px;
+    float: left;
+    border-radius: 5px;
+}
+#page input{
+    height: 28px;
+    width: 40px;
+    text-align: center;
+    line-height: 28px;
+    float: left;
+    margin: 0 20px 0 20px;
+    border: 1px solid #0085D0!important;
+    color:#0085D0;
+    /* ^\d{2}$  */
+}
+#prePage,
+#nextPage
+ {
+    width: 70px;
+    color: #0085D0;
+    border: 1px solid #0085D0!important;
+}
+#go{
+    width: 40px;
+    color: #0085D0;
+    border: 1px solid #0085D0!important;
+    margin-left: 20px;
+}
+
+
+.details-header select{
+    width: 180px;
+    height: 34px;
+    margin-left: 20px;
+}
+.tr{
+    width: 100%;
+    height: 40px;
+}
